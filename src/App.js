@@ -8,7 +8,7 @@ const App = () => {
   let logoItemCont = useRef(null);
 
   const handleReload1 = () => {
-    TweenMax.to(logoItem1, 3, { css: { top: "50vh", right: "50vw", opacity: "1", transform: "scale(3) rotateZ(0)" } })
+    TweenMax.to(logoItem1, 3, { css: { top: "50vh", right: "50vw", opacity: "1", transform: "scale(2) rotateZ(0)" } })
   }
   const handleClick1 = () => {
     TweenMax.to(logoItemCont, 0, { css: { position: "relative" } })
