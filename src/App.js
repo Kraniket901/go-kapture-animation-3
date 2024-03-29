@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", height: "100vh", alignItems: "center" }}>
       <div className='divu-container' ref={e => logoItemCont = e}>
-        <div style={{ position: "absolute", top: `${getRandomPair().top}vh`, right: `${getRandomPair().right}vw` }} className='divu1' ref={e => logoItem1 = e} />
+        <img src='https://i.pinimg.com/474x/7d/b5/22/7db522c102cd030f2ee3ae115f56f966.jpg' style={{ position: "absolute", top: `${getRandomPair().top}vh`, right: `${getRandomPair().right}vw` }} className='divu1' ref={e => logoItem1 = e} />
       </div>
     </div>
   );
